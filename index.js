@@ -34,7 +34,7 @@ module.exports = {
     // Base
 
     "no-unused-expressions": ["error", { allowTernary: true }],
-    "no-console": "off",
+    "no-console": "error",
     "no-confusing-arrow": "off",
     "no-else-return": "off",
     "no-return-assign": ["error", "except-parens"],
@@ -83,5 +83,7 @@ module.exports = {
 
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
+    "jest/no-truthy-falsy": "error",
+    "jest/consistent-test-it": "error"
   },
 };
