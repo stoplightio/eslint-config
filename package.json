@@ -9,7 +9,9 @@
     "README.md",
     "yarn.lock",
     "index.js",
-    "prettier.config.js"
+    "prettier.config.js",
+    "package.json",
+    "LICENSE"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
