@@ -1,7 +1,7 @@
 {
   "name": "@stoplight/eslint-config",
   "description": "Shared Stoplight linting rules.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Stoplight <support@stoplight.io>",
   "license": "Apache-2.0",
   "main": "index.js",
