@@ -42,6 +42,7 @@ module.exports = {
     "no-restricted-syntax": "off",
     "no-param-reassign": ["error", { props: false }],
     "arrow-body-style": "off",
+    "arrow-parens": "off",
 
     // Imports
 
