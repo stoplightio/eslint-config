@@ -26,6 +26,9 @@ module.exports = {
   },
 
   rules: {
+    
+    "no-void": "error",
+    
     "prettier/prettier": "error",
 
     // Base
