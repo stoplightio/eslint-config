@@ -46,7 +46,8 @@ module.exports = {
 
     // Imports
 
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'warn',
     'sort-imports': 'off',
     'import/order': 'off',
     'import/no-extraneous-dependencies': 'off',
