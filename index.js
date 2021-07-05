@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
 
-  extends: ['plugin:react/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended', 'prettier/react'],
+  extends: ['plugin:react/recommended', 'plugin:prettier/recommended'],
 
   plugins: ['simple-import-sort', 'jest', '@typescript-eslint', 'react-hooks', 'react', 'prettier', 'import'],
 
