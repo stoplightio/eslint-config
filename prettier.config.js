@@ -1,12 +1,12 @@
 module.exports = {
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   printWidth: 120,
-  trailingComma: "all",
-  proseWrap: "always",
+  trailingComma: 'all',
+  proseWrap: 'always',
   singleQuote: true,
   overrides: [
     {
-      files: "package*.json",
+      files: 'package*.json',
       options: {
         printWidth: 1000,
       },
