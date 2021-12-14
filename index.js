@@ -83,7 +83,6 @@ module.exports = {
 
     'jest/no-focused-tests': 'error',
     'jest/no-identical-title': 'error',
-    'jest/no-truthy-falsy': 'error',
     'jest/consistent-test-it': 'error',
   },
 };

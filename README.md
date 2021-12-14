@@ -5,17 +5,22 @@
 Including peer dependencies.
 
 ```
-yarn add -D eslint \
-  prettier \
+yarn add -D @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
-  @typescript-eslint/eslint-plugin \
+  eslint \
+  eslint-plugin-import \
   eslint-plugin-jest \
   eslint-plugin-prettier \
   eslint-plugin-react \
   eslint-plugin-react-hooks \
   eslint-plugin-simple-import-sort \
-  eslint-plugin-import \
-  @stoplight/eslint-config
+  prettier
+```
+
+Add `@stoplight/eslint-config`:
+
+```
+yarn add -D @stoplight/eslint-config
 ```
 
 #### Setup
